@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+int main(){
+	int n;
+	scanf("%d",&n);
+	if (n<0 or n>10) return 0;
+	if(n>=0 && n<5){
+		printf("Yeu");
+	}
+	else if(n>=6 && n<=6.5){
+		printf("Trung binh");
+	}
+	else if(n>=6.5 && n<8){
+		printf("Kha");
+	}
+	else if(n>=8 && n<9){
+		printf("Gioi");
+	}
+	else {
+		printf("Xuat sac");
+	}
+	return 0;
+	
+}

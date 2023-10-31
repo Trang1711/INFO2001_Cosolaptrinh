@@ -1,0 +1,22 @@
+// kiem tra so dep
+#include <bits/stdc++.h>
+int main(){
+	int n;
+	int dc = 0, dl = 0;
+	scanf("%d",&n);
+	
+	while (n > 0){
+		if ((n - n/10*10) % 2 == 0){
+			dc += 1;
+		} else {
+			dl += 1;
+		}
+		n = n/10;
+	}
+	if (dl == dc) {
+		printf("yes");
+		return 0;
+	}
+	printf("no");
+	return 0;
+}
