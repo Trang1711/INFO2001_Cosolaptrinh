@@ -13,16 +13,12 @@ void themSinhVien(FILE *file) {
     printf("Nhap ten sinh vien: ");
     getchar();
     fgets(sv.ten, sizeof(sv.ten), stdin);
-
     printf("Nhap ma sinh vien: ");
     scanf("%d", &sv.maSV);
-
     printf("Nhap diem sinh vien: ");
     scanf("%f", &sv.diem);
-
     printf("Nhap so dien thoai sinh vien: ");
     scanf("%d", &sv.sdt);
-
     printf("Nhap email sinh vien: ");
     getchar();
     fgets(sv.email, sizeof(sv.email), stdin);
